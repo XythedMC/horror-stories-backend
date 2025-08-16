@@ -1,3 +1,4 @@
 fastapi
 uvicorn
 gtts
+python-multipart
