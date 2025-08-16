@@ -1,5 +1,3 @@
 fastapi
 uvicorn
 gtts
-python-multipart
-ffmpeg-python
