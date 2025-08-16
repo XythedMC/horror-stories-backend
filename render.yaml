@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: horror-shorts-api
+    env: docker
+    plan: free
+    autoDeploy: true
+    healthCheckPath: /docs
+    envVars:
+      - key: PORT
+        value: "10000"
